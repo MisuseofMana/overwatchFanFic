@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+/* just link google font */
+
+body {
+    background:#FFFDC9;
+    font-family: 'Eagle Lake', cursive;
+    /* font-family: 'Odibee Sans', cursive; */
+    /* width of 100vw is view width, 100 means it adjusts to whatever browsing on at 100% */
+}
+/* .site like arrows in C++, for classes */
+.siteWrapper {
+    display:block;
+    border:black dashed 2px;
+}
+
+header {
+    /* margin 0 auto shorthand for center */
+    margin: 0 auto;
+    text-align:center;
+    border-bottom:black dashed 2px;
+}
+.headerImages {
+    display:flex;
+    justify-content:space-evenly;
+    /* spacing images within header */
+}
+.headerImages img {
+    transform: rotate(30deg) scale(1.2);
+    z-index:-99999;
+    /* z index is background/foreground */
+}
+
+main {
+    text-align:center;
+}
+
+p {
+
+}
+
+h1 {
+    font-family:'Mansalva', cursive;
+    font-weight:100;
+    font-size:70px;
+    margin:2px;
+    text-align:center;
+}
+
+h2 {
+    color: indianred;
+    font-size:35px;
+    text-shadow: indigo 2px 2px 2px;
+}
+
+ol {
+    /* margin: top right bottom left */
+    transform: rotate(-1deg);
+    border:red dashed 5px;
+    margin: 10px 20px 50px 72px;
+}
+
+li {
+    padding:20px;
+    text-align: left;
+    
+}
+
+footer {
+    background-color: plum;
+    color: lawngreen;
+}
+footer p {
+    text-align:center;
+    text-shadow:black 2px 2px 2px;
+    padding:150px 0;
+    font-size:100px;
+}
+.footerLinks {
+    margin-bottom:20px;
+}
+
+a {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align:center;
+
+}
